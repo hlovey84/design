@@ -49,12 +49,47 @@
 }
 
 .navbar-inverse {
-    background-image: -webkit-linear-gradient(top,#3c3c3c 0,#222 100%);
+        background-image: -webkit-linear-gradient(top,#3c3c3c 0,#222 100%);
     background-image: -o-linear-gradient(top,#3c3c3c 0,#222 100%);
     background-image: -webkit-gradient(linear,left top,left bottom,from(#3c3c3c),to(#222));
-    background-image: linear-gradient(to bottom,#1AAAB7 0,#3D8B92 100%) !important;
+    background-image: linear-gradient(to bottom,#507FFF 0,#345AC1 100%) !important;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
     background-repeat: repeat-x;
     border-radius: 4px;
+}
+
+.dropdown-menu{
+	    background: rgb(62, 98, 152);
+
+}
+
+.dropdown-menu>li>a{
+	color:white;
+}
+
+#portfolio-wrapper{
+	
+	    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding-bottom: 52px;
+}
+
+#page{
+	
+	    margin-top: 32px;
+}
+
+.col-md-6{
+	padding-bottom: 8px;
+}
+
+h2{
+	    color: #4E7CFA;
+}
+
+@media screen and (min-width: 992px){
+	.col-md-6{
+		width: 49% !important;
+	} 
+    
 }
