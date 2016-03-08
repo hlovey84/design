@@ -1,3 +1,7 @@
+body{
+    background-color: #F5F5F5;
+}
+
 .logo{
 	margin-top : 0px !important;
 }
@@ -94,6 +98,14 @@ h2{
     margin-right: 8px;
 }
 
+#page > .col-md-8 > .row > .col-md-6{
+    border: 1px solid #DED9D9;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    /* border: 1px solid #F3F3F3; */
+    -webkit-transition: all 200ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: all 200ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    background-color: #FFFFFF;
+}
 @media screen and (min-width: 992px){
 	.col-md-6{
 		width: 49% !important;
