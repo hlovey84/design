@@ -87,6 +87,10 @@ h2{
 	    color: #4E7CFA;
 }
 
+.box > img {
+    width: 100%;
+}
+
 @media screen and (min-width: 992px){
 	.col-md-6{
 		width: 49% !important;
