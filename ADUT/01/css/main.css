@@ -1,0 +1,7 @@
+.slider-homepage{
+    overflow: hidden;
+	padding-top:0px !important;
+    background: url('http://templated.co/items/demos/juncture/images/banner.jpg') no-repeat top center;
+    background-size: 100%;
+    clear: both;
+}
