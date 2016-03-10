@@ -3,6 +3,25 @@ body{
 	-webkit-font-smoothing: antialiased !important;
 	padding-bottom: 0px !important;
 	}
+	
+#main-content{
+	
+	box-shadow: 0px 0px 15px 4px grey;
+    padding: 17px 19px 0px 19px;
+    background: white;
+}
+
+#left-panel{
+	padding-left: 0px;
+}
+
+#navigator{
+	margin-bottom: 0px;
+    box-shadow: 0px 6px 8px 0px rgba(128, 128, 128, 0.3);
+    padding-bottom: 0px !important;
+    padding: 0px !important;
+    border: 0px;
+}	
 
 .logo{
 	margin-top : 0px !important;
@@ -69,6 +88,10 @@ body{
 	background: rgb(65, 153, 187);
 }
 
+.responsive-slider{
+	    margin-bottom: 46px;
+}
+
 .dropdown-menu>li>a{
 	color:white;
 }
@@ -77,12 +100,17 @@ body{
 	
 	border-bottom: 1px solid rgba(0,0,0,.1);
     padding-bottom: 52px;
+    border-top: 1px solid rgba(0,0,0,.1);
+    padding-top: 25px;
+	 background: whitesmoke;
+		
 }
 
 #page{
 	
 	margin-top: 32px;
 	margin-bottom: 60px;
+	    padding-left: 0px;
 }
 
 .col-md-6{
@@ -202,4 +230,10 @@ ul.footer-social li {
 		width: 49% !important;
 	} 
     
+}
+
+@media screen and (min-width: 992px){
+	.col-md-4 {
+		width: 32.333333%;
+	}
 }
