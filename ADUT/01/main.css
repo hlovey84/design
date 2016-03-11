@@ -50,13 +50,13 @@ body{
 }
 
 .jumbotron {
-    padding-top: 10px !important;
+    padding-top: 19px !important;
     padding-bottom: 0px !important;
     margin-bottom: 0px !important;
-    height: 160px;
+    height: 182px;
     overflow: hidden;
     clear: both;
-	background-color: #105B81;
+    background-color: #105B81;
 }
 
 .jumbotron  img {
