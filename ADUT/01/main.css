@@ -21,7 +21,58 @@ body{
     padding-bottom: 0px !important;
     padding: 0px !important;
     border: 0px;
+	border-top: 1px solid #3693C1;
 }	
+
+.overlay-slider{
+	z-index: 999;
+	background: rgba(35, 116, 157, 0.78) !important;
+	bottom: 0px !important;
+    padding: 2px 15px;
+}
+
+.box p{
+	
+	color: #666666;
+    font-size: 13px;
+    line-height: 1.4em;
+    margin: .4em 0 0;
+    box-sizing: inherit;
+    margin-bottom: 11px;
+}
+
+.box img{
+	
+	width: 100%;
+    margin-bottom: 9px;
+    box-sizing: inherit;
+}
+
+.overlay h2{
+	color:white;
+	font-size: 20px;
+    line-height: 1.2em;
+}
+
+.overlay{
+    position: absolute;
+    color: #eee;
+    bottom: 9px;
+    left: 0px;
+    right: 0px;
+    padding: 2px 15px;
+    background: #000;
+    background: rgba(35, 116, 157, 0.78);
+	border-top: 1px solid rgba(91, 192, 222, 0.43);
+    clear: both;
+    box-sizing: border-box;
+}
+
+.box{
+	
+	padding: 2px;
+    bottom: 25px;
+}
 
 .logo{
 	margin-top : 0px !important;
@@ -93,9 +144,30 @@ body{
 	background: rgb(65, 153, 187);
 }
 
-.responsive-slider{
-	    margin-bottom: 46px;
+
+
+/*SLIDER*/
+
+.responsive-slider .pages .page {
+    width: 10px !important;
+    height: 10px !important;
+    border: 2px solid #23749D !important;
 }
+
+.responsive-slider .pages {
+	z-index:999;
+    bottom: -39px !important;
+}
+	
+a:focus, a:hover {
+    background: #105B81 !important;
+}
+	
+.responsive-slider{
+	    margin-bottom: 46px !important;
+}
+
+/*FIN SLIDER*/
 
 .dropdown-menu>li>a{
 	color:white;
