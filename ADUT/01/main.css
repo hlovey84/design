@@ -314,7 +314,7 @@ ul.footer-social li {
 
 .about_trainer{
 	
-	padding: 4% 11px;
+	padding: 3% 11px;
 }
 
 .desc1 h3 
@@ -468,8 +468,18 @@ h3.m_2 {
     /* float: left; */
 }
 
+/*FIN AUTORIDADES*/
 
+/*CONTACTO*/
+.btn-theme{
+	 background: #23749D;
+    color: white;
+}
 
+#contacto  h1{
+	color: #23749D;
+}
+/* FIN CONTACTO*/
 @media screen and (min-width: 992px){
 	.col-md-4 {
 		width: 32.333333%;
