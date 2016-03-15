@@ -49,6 +49,36 @@ body{
 
 /*FIN NOVEDADES*/
 
+#cont_novedades_pagina_principal .col-md-6{
+	padding-bottom: 39px;
+}
+
+.cont_novedad_fecha_region{
+	position: absolute;
+    color: #eee;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 0px 14px;
+    background: #000;
+    background: rgba(35, 116, 157, 0.7);
+    border-top: 1px solid rgba(91, 192, 222, 0.43);
+    clear: both;
+    box-sizing: border-box;
+}
+
+.cont_novedad_fecha_region  i{
+        float: left;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+.cont_novedad_fecha_region  p{
+        margin-top: 1px;
+		margin: 0 0 2px !important;
+		    float: left;
+}
+
 #page h2{
 	margin-bottom: 31px;
 	border-bottom: 2px solid rgba(35, 116, 157, 0.62);
