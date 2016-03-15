@@ -310,8 +310,172 @@ ul.footer-social li {
     
 }
 
+/*AUTORIDADES*/
+
+.about_trainer{
+	
+	padding: 4% 11px;
+}
+
+.desc1 h3 
+{
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.desc2 h3{
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.coursel_list {
+    float: left;
+}
+
+.coursel_list1 {
+    float: right;
+}
+
+i.heart1 {
+    background: url(../images/img-sprite.png)no-repeat -303px -76px;
+    width: 20px;
+    height: 25px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+i.like {
+    background: url(../images/img-sprite.png)no-repeat -350px -75px;
+    width: 20px;
+    height: 25px;
+    display: inline-block;
+    cursor: pointer;
+}
+i.a_twt {
+    background: url(../images/img-sprite.png)no-repeat -316px -209px;
+    width: 20px;
+    height: 25px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+i.a_fb {
+    background: url(../images/img-sprite.png)no-repeat -354px -209px;
+    width: 20px;
+    height: 25px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.clear {
+    clear: both;
+}
+.desc1 p {
+    color: #fff;
+    font-size: 0.8125em;
+    font-style: italic;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 1.3em;
+}
+
+.desc2 p {
+    color: #fff;
+    font-size: 0.8125em;
+    font-style: italic;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 1.3em;
+}
+
+
+
+.box1_left {
+    width: 42.5%;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #B9DEEC;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+.box1_left img {
+    border-radius: 100px;
+    /* -webkit-border-radius: 100px; */
+    -moz-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.box1_right {
+    width: 45.5%;
+    float: left;
+}
+
+.box1_right h4 {
+    color: #FFF;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+p.right_text1 {
+    color: #00BFF0;
+    font-size: 0.79em;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.box2 {
+        background: #105B81;
+    padding: 8% 5% 4% 5%;
+}
+
+.box1 {
+    background: #23749D;
+    padding: 8% 5% 4% 5%;
+}
+
+.about_box {
+    margin-bottom: 2.6%;
+}
+
+.box1_right p{
+	font-size: 0.79em;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+	color:white;
+}
+
+
+h3.m_2 {
+    text-align: left;
+    color: #23749D;
+        font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0 0 3%;
+    /* float: left; */
+}
+
+
+
 @media screen and (min-width: 992px){
 	.col-md-4 {
 		width: 32.333333%;
+	}
+	
+	.about_box1 .col-md-4, .about_box .col-md-4{
+		width: 33.333333%;
 	}
 }
