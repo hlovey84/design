@@ -161,7 +161,7 @@ body{
 }
 	
 a:focus, a:hover {
-    background: #105B81 !important;
+    /* background: #105B81 !important; */
 }
 	
 .responsive-slider{
