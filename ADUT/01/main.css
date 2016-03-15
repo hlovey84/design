@@ -556,6 +556,26 @@ h3.m_2 {
 	color: #23749D;
 }
 /* FIN CONTACTO*/
+
+/*NOVEDAD*/
+
+#cont_novedades_relacionadas  h1{
+	border-bottom: 2px solid rgba(35, 116, 157, 0.68);	
+}
+
+#cont_novedades_relacionadas  img{
+    width: 100%;
+}
+
+#cont_novedades_relacionadas{	
+	    margin-top: 12px
+}
+
+#cont_novedad img{
+	width: 100%;
+}
+
+/*FIN NOVEDAD*/
 @media screen and (min-width: 992px){
 	.col-md-4 {
 		width: 32.333333%;
