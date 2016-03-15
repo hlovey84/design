@@ -12,6 +12,14 @@ body{
 	    padding-bottom: 57px;
 }
 
+.row{
+	margin-left: 0px;
+}
+
+.col-md-4.margin-right {
+    margin-right: 8px;
+}
+
 #left-panel{
 	padding-left: 0px;
 }
