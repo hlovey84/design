@@ -3,13 +3,89 @@ body{
 	-webkit-font-smoothing: antialiased !important;
 	padding-bottom: 0px !important;
 	}
-	
+/*AFECTA A TODAS LAS PANTALLAS*/	
 #main-content{
 	
 	box-shadow: 0px 0px 15px 4px grey;
     padding: 17px 19px 0px 19px;
     background: white;
 	    padding-bottom: 57px;
+}
+
+.row{
+	margin-left: 0px;
+}
+
+.ver_mas a{
+	float: right;
+    font-size: 11px;
+    background: #23749D;
+    color: white;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+
+/*NOVEDADES*/
+
+#cont_novedades {
+	padding-left: 16px;
+    padding-right: 16px;
+}
+
+#cont_novedades .row .col-md-4{
+	border: 1px solid #DED9D9;
+    margin-right: 8px;
+    border: 1px solid #DED9D9;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    -webkit-transition: all 200ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    transition: all 200ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    background-color: #FFFFFF;
+}
+
+/*FIN NOVEDADES*/
+
+#cont_novedades_pagina_principal .col-md-6{
+	padding-bottom: 39px;
+}
+
+.cont_novedad_fecha_region{
+	position: absolute;
+    color: #eee;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 0px 14px;
+    background: #000;
+    background: rgba(35, 116, 157, 0.7);
+    border-top: 1px solid rgba(91, 192, 222, 0.43);
+    clear: both;
+    box-sizing: border-box;
+}
+
+.cont_novedad_fecha_region  i{
+        float: left;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+.cont_novedad_fecha_region  p{
+        margin-top: 1px;
+		margin: 0 0 2px !important;
+		    float: left;
+}
+
+#page h2{
+	margin-bottom: 31px;
+	border-bottom: 2px solid rgba(35, 116, 157, 0.62);
+}
+
+.col-md-4.margin-right {
+    margin-right: 8px;
 }
 
 #left-panel{
@@ -480,6 +556,26 @@ h3.m_2 {
 	color: #23749D;
 }
 /* FIN CONTACTO*/
+
+/*NOVEDAD*/
+
+#cont_novedades_relacionadas  h1{
+	border-bottom: 2px solid rgba(35, 116, 157, 0.68);	
+}
+
+#cont_novedades_relacionadas  img{
+    width: 100%;
+}
+
+#cont_novedades_relacionadas{	
+	    margin-top: 12px
+}
+
+#cont_novedad img{
+	width: 100%;
+}
+
+/*FIN NOVEDAD*/
 @media screen and (min-width: 992px){
 	.col-md-4 {
 		width: 32.333333%;
