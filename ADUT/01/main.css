@@ -630,6 +630,119 @@ h3.m_2 {
 }
 
 /*FIN NOVEDAD*/
+
+/*Seccionales*/
+
+#map{
+	height: 425px;
+}
+
+#cont_buscador_seccionales{
+	background: rgba(58, 123, 155, 0.58);
+    height: 427px;
+	    padding-top: 26px;
+}
+
+#cont_mapa_seccionales{
+	    padding-left: 0px !important;
+}
+
+.container > .titulo_seccion{
+	    color: #23749D;
+}
+
+.wrapper-dropdown-3.active {
+    border-radius: 5px 5px 0 0;
+    background: #4cbeff;
+    box-shadow: none;
+    border-bottom: none;
+    color: white;
+}
+
+.wrapper-dropdown-3 {
+    position: relative;
+    width: 258px;
+    margin: 4px auto;
+    padding: 12px 15px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper-dropdown-3.active .dropdown {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    max-height: 400px;
+}
+
+#cont_seccionales_pos_titulo{
+	    margin-top: 55px;
+}
+
+.wrapper-dropdown-3 .dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-top: none;
+    border-bottom: none;
+    list-style: none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.wrapper-dropdown-3 .dropdown li {
+    padding: 0 10px;
+}
+
+.wrapper-dropdown-3 .dropdown li:hover a {
+    color: #57a9d9;
+}
+.wrapper-dropdown-3 .dropdown li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 0;
+    transition: all 0.3s ease-out;
+    border-bottom: 1px solid #e6e8ea;
+}
+
+.wrapper-dropdown-3:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: #4cbeff transparent;
+}
+
+/* FIN SECCIONALES*/
+
 @media screen and (min-width: 992px){
 	.col-md-4 {
 		width: 32.333333%;
