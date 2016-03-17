@@ -145,11 +145,21 @@ div#cont_texto_novedad p {
 	border-top: 1px solid #3693C1;
 }	
 
-.overlay-slider{
-	z-index: 999;
-	background: rgba(35, 116, 157, 0.78) !important;
-	bottom: 0px !important;
-    padding: 2px 15px;
+.overlay-slider p{
+    width: 100%;
+    white-space: normal;
+    color: white;
+}
+
+.overlay-slider {
+    z-index: 999;
+    background: rgba(35, 116, 157, 0.78) !important;
+    bottom: 0px !important;
+    padding: 18px 12px;
+    /* top: 0px; */
+    position: absolute;
+    width: 100%;
+    border-top: 2px solid #639CB9;
 }
 
 .box p{
@@ -558,7 +568,7 @@ p.right_text1 {
 }
 
 .box2 {
-        background: #105B81;
+    background: #105B81;
     padding: 8% 5% 4% 5%;
 }
 
