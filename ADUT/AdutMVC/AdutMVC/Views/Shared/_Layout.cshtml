@@ -1,5 +1,5 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿
+<html>
     <head>
         <meta charset="utf-8" />
         <title>ADUT</title>
@@ -15,7 +15,7 @@
         <![endif]-->
         <link href="http://fonts.googleapis.com/css?family=Economica" rel="stylesheet" type="text/css">
 
-        <link href="../../Content/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link href="../../Content/main.css" rel="stylesheet" type="text/css" />
         <link href="../../Content/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
         <link href="../../Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -31,13 +31,23 @@
             @RenderBody()
    
         <footer>
-            <div class="content-wrapper">
-                <div class="float-left">
-                    <p>&copy; @DateTime.Now.Year - My ASP.NET MVC Application</p>
-                </div>
+            <nav id="footer">
+        <div class="container">
+            <div class="pull-left fnav">
+                
             </div>
+            <div class="pull-right fnav">
+                <ul class="footer-social">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
         </footer>
-        @Scripts.Render("~/bundles/scripts/home")
+       
         @*@Scripts.Render("~/bundles/jquery")
         @RenderSection("scripts", required: false)*@
     </body>
