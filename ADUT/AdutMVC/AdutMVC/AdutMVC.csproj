@@ -162,7 +162,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AfiliacionController.cs" />
+    <Compile Include="Controllers\BeneficiosController.cs" />
+    <Compile Include="Controllers\CapacitacionController.cs" />
+    <Compile Include="Controllers\ContactoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InstitucionalController.cs" />
+    <Compile Include="Controllers\NovedadesController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -263,6 +269,7 @@
     <Content Include="Imagenes\Slider\slider-bg.jpg" />
     <Content Include="Imagenes\Slider\twitter.png" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\gmap3.min.js" />
     <Content Include="Scripts\html5shiv.min.js" />
     <Content Include="Scripts\jquery-1.7.1-vsdoc.js" />
     <Content Include="Scripts\jquery-2.2.1.min.js" />
@@ -327,6 +334,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Shared\_Header.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Institucional\quienes_somos.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Institucional\seccionales.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
