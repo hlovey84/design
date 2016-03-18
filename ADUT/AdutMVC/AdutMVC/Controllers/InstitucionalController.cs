@@ -27,7 +27,7 @@ namespace AdutMVC.Controllers
         //
         // GET: /Institucional/Details/5
 
-        public ActionResult Details(int id)
+        public ActionResult Autoridades()
         {
             return View();
         }

@@ -13,6 +13,13 @@ namespace AdutMVC.Controllers
 
         public ActionResult Index()
         {
+            
+            return View();
+        }
+
+
+        public ActionResult Contacto()
+        {
             return View();
         }
 

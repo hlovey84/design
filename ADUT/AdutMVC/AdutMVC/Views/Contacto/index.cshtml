@@ -1,0 +1,70 @@
+﻿@{
+    ViewBag.Title = "contacto";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id ="main-content" class="container">
+		<div id="contacto" class="page-wrapper">
+                <header class="page-heading clearfix">
+                    <h1 class="heading-title pull-left">Contacto</h1>
+                    
+                </header> 
+                <div class="page-content">
+                    <div class="row">
+                        <article class="contact-form col-md-8 col-sm-7  page-row">                            
+                            <h3 class="title">Consejo</h3>
+                            <p>Anota tus datos de contacto y escribe tu mensaje. Te rogamos que rellenes todas las secciones, ya que así nos ayudará a responder más eficientemente a tu mensaje. </p>
+                            <form>
+                                <div class="form-group name">
+                                    <label for="name">Nombre</label>
+                                    <input id="name" type="text" class="form-control" placeholder="Introduzca su nombre">
+                                </div><!--//form-group-->
+                                <div class="form-group email">
+                                    <label for="email">Email<span class="required">*</span></label>
+                                    <input id="email" type="email" class="form-control" placeholder="Introduzca su email">
+                                </div><!--//form-group-->
+                                <div class="form-group phone">
+                                    <label for="phone">Telefono</label>
+                                    <input id="phone" type="tel" class="form-control" placeholder="Introduzca su numero de telefono">
+                                </div><!--//form-group-->
+                                <div class="form-group message">
+                                    <label for="message">Mensaje<span class="required">*</span></label>
+                                    <textarea id="message" class="form-control" rows="6" placeholder="Introduzca su mensaje aqui..."></textarea>
+                                </div><!--//form-group-->
+                                <button type="submit" class="btn btn-theme">Send message</button>
+                            </form>                  
+                        </article><!--//contact-form-->
+                        <aside class="page-sidebar  col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-1">
+                            <section class="widget has-divider">
+                                <h3 class="title">Descargar Folleto</h3>
+                                <p>Donec pulvinar arcu lacus, vel aliquam libero scelerisque a. Cras mi tellus, vulputate eu eleifend at, consectetur fringilla lacus. Nulla ut purus.</p>
+                                <a class="btn btn-theme" href="#"><i class="fa fa-download"></i>Download now</a>
+                            </section><!--//widget-->   
+                            
+                            <section class="widget has-divider">
+                                <h3 class="title">Direccion</h3>
+                                <p class="adr">
+                                    <span class="adr-group">       
+                                        <span class="street-address">College Green</span><br>
+                                        <span class="region">56 College Green Road</span><br>
+                                        <span class="postal-code">BS16 AP18</span><br>
+                                        <span class="country-name">UK</span>
+                                    </span>
+                                </p>
+                            </section><!--//widget-->     
+                            
+                            <section class="widget">
+                                <h3 class="title">Todas las consultas</h3>
+                                <p class="tel"><i class="fa fa-phone"></i>Tel: 0800 123 4567</p>
+                                <p class="email"><i class="fa fa-envelope"></i>Email: <a href="#">enquires@website.com</a></p>
+                            </section>   
+                        </aside><!--//page-sidebar-->
+                    </div><!--//page-row-->
+                    <div class="page-row">
+                        <article class="map-section">
+                            <h3 class="title">Como encontrarnos</h3>
+                                   </article><!--//map-->
+                    </div><!--//page-row-->
+                </div><!--//page-content-->
+            </div>
+	</div>

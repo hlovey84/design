@@ -341,6 +341,15 @@
   <ItemGroup>
     <Content Include="Views\Institucional\seccionales.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Contacto\index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Institucional\autoridades.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Novedades\index.cshtml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

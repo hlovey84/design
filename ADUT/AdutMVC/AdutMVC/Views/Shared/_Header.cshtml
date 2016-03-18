@@ -18,9 +18,9 @@
 					<li class="active"><a href="Home/">Inicio</a></li>
 					<li><a href="#about" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Institucional<span class="caret"></span></a>
 					  <ul class="dropdown-menu">
-						<li><a href="Institucional/Quienes_somos">Quienes somos</a></li>
-						<li><a href="autoridades.html">Autoridades</a></li>
-						<li><a href="/Institucional/Seccionales ">Seccionales</a></li>
+						<li>@Html.ActionLink("Quienes somos", "Quienes_somos", "Institucional")</li>
+						<li>@Html.ActionLink("Autoridades", "Autoridades", "Institucional")</li>
+						<li>@Html.ActionLink("Seccionales", "Seccionales", "Institucional")</li>
 					  </ul>
 					</li>
 					<li><a href="#about" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Beneficios<span class="caret"></span></a>
@@ -30,11 +30,11 @@
 							<li><a href="#">Convenios</a></li>
 					  </ul>
 					</li>
-					<li><a href="novedades.html">Novedades</a></li>
+					<li>@Html.ActionLink("Novedades", "", "Novedades")</li>
 					<li><a href="#about">Capacitación</a></li>
 					
 					<li><a href="#about">Afiliados</a></li>
-					<li><a href="contacto.html">Contacto</a></li>
+					<li>@Html.ActionLink("Contacto", "", "Contacto")</li>
 				  </ul>
 				  <a href="#" style="
 					color: white;
