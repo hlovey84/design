@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>ADUT</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+      
+        <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+   
+        <!--[if lt IE 9]>
+              <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+              <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <link href="http://fonts.googleapis.com/css?family=Economica" rel="stylesheet" type="text/css">
+
+        <link href="../../Content/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="../../Content/main.css" rel="stylesheet" type="text/css" />
+        <link href="../../Content/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+        <link href="../../Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="../../Content/responsive-slider.css" rel="stylesheet" type="text/css" />
+        <link href="../../Content/carousel.css" rel="stylesheet" type="text/css" />
+        <script src="../../Scripts/jquery-2.2.1.min.js" type="text/javascript"></script>
+        <script src="../../Scripts/bootstrap.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+      
+                 @Html.Partial("_Header")
+            @*@RenderSection("featured", required: false)*@
+            @RenderBody()
+   
+        <footer>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p>&copy; @DateTime.Now.Year - My ASP.NET MVC Application</p>
+                </div>
+            </div>
+        </footer>
+        @Scripts.Render("~/bundles/scripts/home")
+        @*@Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)*@
+    </body>
+</html>
