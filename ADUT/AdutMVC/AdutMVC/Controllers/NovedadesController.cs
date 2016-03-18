@@ -19,7 +19,7 @@ namespace AdutMVC.Controllers
         //
         // GET: /Novedades/Details/5
 
-        public ActionResult Details(int id)
+        public ActionResult Novedad()
         {
             return View();
         }
