@@ -14,7 +14,7 @@ body{
 
 
 .row{
-	margin-left: 0px;
+	margin-left: 0px !important;
 }
 
 .ver_mas a{
@@ -75,6 +75,13 @@ body{
     margin: 19px 0px 0px 36px;
 }
 /*NOVEDADES*/
+.margin-top-noticias {
+    margin-top:4px;
+}
+
+.margin-bottom-noticias {
+    margin-bottom : 4px;
+}
 
 #cont_texto_novedad{
 	margin-top: 27px;
@@ -341,7 +348,7 @@ a:focus, a:hover {
 }
 
 h2{
-	color: #23749D;
+	color: #23749D !important;
 }
 
 .box > img {
@@ -760,7 +767,7 @@ h3.m_2 {
 
 @media screen and (min-width: 992px){
 	.col-md-4 {
-		width: 32.333333%;
+		width: 32.333333% !important;
 	}
 	
 	.portfolio-wrapper .col-md-offset-1{
