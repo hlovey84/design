@@ -13,14 +13,16 @@ namespace AdutMVC.Controllers
 
         public ActionResult Index()
         {
+            RedirectToAction("Hoteles");
             return View();
         }
 
         //
         // GET: /Beneficios/Details/5
 
-        public ActionResult Details(int id)
+        public ActionResult Hoteles()
         {
+
             return View();
         }
 

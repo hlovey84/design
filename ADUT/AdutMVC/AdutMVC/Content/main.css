@@ -116,6 +116,11 @@ div#cont_texto_novedad p {
 }
 
 /*FIN NOVEDADES*/
+.col-beneficios-pagina-princial {
+    width: 100%;
+    padding: 0%;
+}
+				
 
 #cont_novedades_pagina_principal .col-md-6{
 	padding-bottom: 39px;
@@ -204,7 +209,7 @@ div#cont_texto_novedad p {
 }
 
 .overlay h2{
-	color:white;
+	color:white !important;
 	font-size: 20px;
     line-height: 1.2em;
 }
