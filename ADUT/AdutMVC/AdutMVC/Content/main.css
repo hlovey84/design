@@ -59,20 +59,20 @@ body{
 
 #img-afilia
 {
-    width: 95px;
+    width: 75px;
     margin-top: 19px;
-    margin-left: 13px;   
+    margin-left: 27px;  
  }
  
  #img-hotel{
     margin-top: 19px;
-    width: 84px;
-    margin-left: 6px;
+    width: 67px;
+    margin-left: 21px;
  }
  
  #img-seccional{
-    width: 90px;
-    margin: 19px 0px 0px 36px;
+    width: 72px;
+    margin: 19px 0px 0px 49px;
 }
 /*NOVEDADES*/
 .margin-top-noticias {
